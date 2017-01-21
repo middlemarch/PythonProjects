@@ -16,11 +16,11 @@ from projdictionaries import *
 # Ensuring output is not truncated
 pd.set_option('display.max_columns', 30)
 
-df1 = pd.read_csv("C:/Users/rtfly/Documents/HDip/ProgrammingBD/RecklessDrivers_ProgrammingforBD/Vehicles_2015.csv")
+df1 = pd.read_csv("~/Vehicles_2015.csv")
 
 df1.describe() 
 
-df1 = pd.read_csv("C:/Users/rtfly/Documents/HDip/ProgrammingBD/RecklessDrivers_ProgrammingforBD/Vehicles_2015.csv", 
+df1 = pd.read_csv("~/Vehicles_2015.csv", 
                   dtype={"Vehicle_Reference":str,
                          "Vehicle_Type":str,
                          "Towing_and_Articulation":str,
@@ -43,7 +43,7 @@ df1 = pd.read_csv("C:/Users/rtfly/Documents/HDip/ProgrammingBD/RecklessDrivers_P
 
 df1.head(5)
  
-df2 = pd.read_csv("C:/Users/rtfly/Documents/HDip/ProgrammingBD/RecklessDrivers_ProgrammingforBD/Accidents_2015_Datetime.csv",
+df2 = pd.read_csv("~/Accidents_2015_Datetime.csv",
                   dtype={"Day_of_Week":str}, na_values="-1")
 
 df2.head(5)
