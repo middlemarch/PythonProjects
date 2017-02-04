@@ -6,4 +6,6 @@
 
 * **Dictionaries** is a reference for coded categorical data, created for convenient access of key values while keeping the original dataframe smaller and faster
 
+* **AppliedDSPythonWk2** contains some possible solutions for course queries, showcasing pandas library
+
 ![alt](http://www.platonix.com/static/presentations/shai/py/python-logo-glassy.png)
